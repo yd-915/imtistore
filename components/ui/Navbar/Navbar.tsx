@@ -24,7 +24,7 @@ const Navbar = () => {
                <Image
       
       src={Logo}
-      width="400px"
+      width="300px"
       height="70px"
     />
             </Link>
