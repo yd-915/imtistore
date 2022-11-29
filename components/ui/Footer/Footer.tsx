@@ -16,7 +16,7 @@ export default function Footer() {
       
       src={Logo}
       width="300px"
-      height="200px"
+      height="100px"
     />
               </span>
               <span>IFTIIN</span>
