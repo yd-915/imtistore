@@ -25,7 +25,7 @@ const Navbar = () => {
       
       src={Logo}
       width="300px"
-      height="200px"
+      height="100px"
     />
             </Link>
             <nav className="space-x-2 ml-6 hidden lg:block">
