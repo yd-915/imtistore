@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import s from './Navbar.module.css';
 import Image from "next/image";
-import Logo from 'components/icons/IMT.png';
+import Logo from 'components/icons/IMTo.png';
 import { useRouter } from 'next/router';
 import { useUser } from 'utils/useUser';
 import { useSupabaseClient } from '@supabase/auth-helpers-react';
@@ -24,8 +24,8 @@ const Navbar = () => {
                <Image
       
       src={Logo}
-      width="300px"
-      height="100px"
+      width="400px"
+      height="70px"
     />
             </Link>
             <nav className="space-x-2 ml-6 hidden lg:block">
