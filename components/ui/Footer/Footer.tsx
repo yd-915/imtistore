@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import s from './Footer.module.css';
-
+import Image from 'next/image'
 import Logo from 'components/icons/IFTIIN.png';
 import GitHub from 'components/icons/GitHub';
 
@@ -12,9 +12,15 @@ export default function Footer() {
           <Link href="/">
             <a className="flex flex-initial items-center font-bold md:mr-24">
               <span className="rounded-full border border-zinc-700 mr-2">
-             
+<Image
+      
+      src={Logo}
+      width="300px"
+      height="200px"
+    />
               </span>
               <span>IFTIIN</span>
+           
             </a>
           </Link>
         </div>
