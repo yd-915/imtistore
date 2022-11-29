@@ -20,9 +20,9 @@ const Navbar = () => {
         <div className="flex justify-between align-center flex-row py-4 md:py-6 relative">
           <div className="flex flex-1 items-center">
             <Link href="/">
-              <a className={s.logo} aria-label="Logo">
+             
                 <Logo />
-              </a>
+              
             </Link>
             <nav className="space-x-2 ml-6 hidden lg:block">
               <Link href="/">
