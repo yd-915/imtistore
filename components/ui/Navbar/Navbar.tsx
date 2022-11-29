@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import s from './Navbar.module.css';
-
+import Image from "next/image";
 import Logo from 'components/icons/IFTIIN.png';
 import { useRouter } from 'next/router';
 import { useUser } from 'utils/useUser';
@@ -21,8 +21,12 @@ const Navbar = () => {
           <div className="flex flex-1 items-center">
             <Link href="/">
              
-                <Logo />
-              
+               <Image
+      
+      src={Logo}
+      width="300px"
+      height="200px"
+    />
             </Link>
             <nav className="space-x-2 ml-6 hidden lg:block">
               <Link href="/">
