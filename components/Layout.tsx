@@ -14,9 +14,9 @@ interface Props {
 export default function Layout({ children, meta: pageMeta }: Props) {
   const router = useRouter();
   const meta = {
-    title: 'Next.js Subscription Starter',
-    description: 'Brought to you by Vercel, Stripe, and Supabase.',
-    cardImage: '/og.png',
+    title: 'Imtijaab Subscription Page',
+    description: 'Where users can subscribe to plans',
+    cardImage: '/top.png',
     ...pageMeta
   };
 
@@ -25,7 +25,7 @@ export default function Layout({ children, meta: pageMeta }: Props) {
       <Head>
         <title>{meta.title}</title>
         <meta name="robots" content="follow, index" />
-        <link href="/favicon.ico" rel="shortcut icon" />
+        <link href="/top.ico" rel="shortcut icon" />
         <meta content={meta.description} name="description" />
         <meta property="og:url" content={`https://subscription-starter.vercel.app${router.asPath}`} />
         <meta property="og:type" content="website" />
