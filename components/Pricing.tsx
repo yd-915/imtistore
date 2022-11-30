@@ -161,50 +161,15 @@ export default function Pricing({ products }: Props) {
           </p>
           <div className="flex flex-col items-center my-12 space-y-4 sm:mt-8 sm:space-y-0 md:mx-auto md:max-w-2xl sm:grid sm:gap-6 sm:grid-cols-5">
             <div className="flex items-center justify-start">
-              <a href="https://nextjs.org" aria-label="Next.js Link">
+              <a href="https://iftiin.io" aria-label=" IFTIIN Link">
                 <img
-                  src="/nextjs.svg"
-                  alt="Next.js Logo"
+                  src="/iftiin.png"
+                  alt="Iftiin Logo"
                   className="h-12 text-white"
                 />
               </a>
             </div>
-            <div className="flex items-center justify-start">
-              <a href="https://vercel.com" aria-label="Vercel.com Link">
-                <img
-                  src="/vercel.svg"
-                  alt="Vercel.com Logo"
-                  className="h-6 text-white"
-                />
-              </a>
-            </div>
-            <div className="flex items-center justify-start">
-              <a href="https://stripe.com" aria-label="stripe.com Link">
-                <img
-                  src="/stripe.svg"
-                  alt="stripe.com Logo"
-                  className="h-12 text-white"
-                />
-              </a>
-            </div>
-            <div className="flex items-center justify-start">
-              <a href="https://supabase.io" aria-label="supabase.io Link">
-                <img
-                  src="/supabase.svg"
-                  alt="supabase.io Logo"
-                  className="h-10 text-white"
-                />
-              </a>
-            </div>
-            <div className="flex items-center justify-start">
-              <a href="https://github.com" aria-label="github.com Link">
-                <img
-                  src="/github.svg"
-                  alt="github.com Logo"
-                  className="h-8 text-white"
-                />
-              </a>
-            </div>
+         
           </div>
         </div>
       </div>
