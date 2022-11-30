@@ -1,7 +1,6 @@
 import cn from 'classnames';
 import { useRouter } from 'next/router';
 import { useState } from 'react';
-import Logo from 'components/icons/IFTIIN.png';
 import Button from 'components/ui/Button';
 import { postData } from 'utils/helpers';
 import { getStripe } from 'utils/stripe-client';
@@ -163,7 +162,7 @@ export default function Pricing({ products }: Props) {
             <div className="flex items-center justify-start">
               <a href="https://iftiin.io" aria-label=" IFTIIN Link">
                 <img
-                  src={Logo}
+                  src=/IFTIIN.svg
                   alt="Iftiin Logo"
                   className="h-12 text-white"
                 />
