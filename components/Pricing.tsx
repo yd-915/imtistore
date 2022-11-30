@@ -163,7 +163,7 @@ export default function Pricing({ products }: Props) {
             <div className="flex items-center justify-start">
               <a href="https://iftiin.io" aria-label=" IFTIIN Link">
                 <img
-                  src="/iftiin.png"
+                  src="/icons/IFTIIN.png"
                   alt="Iftiin Logo"
                   className="h-12 text-white"
                 />
