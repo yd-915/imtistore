@@ -6,7 +6,7 @@ import { postData } from 'utils/helpers';
 import { getStripe } from 'utils/stripe-client';
 import { useUser } from 'utils/useUser';
 import { Price, ProductWithPrice } from 'types';
-import Logo from 'components/IFTIIN.png';
+
 interface Props {
   products: ProductWithPrice[];
 }
@@ -162,7 +162,7 @@ export default function Pricing({ products }: Props) {
             <div className="flex items-center justify-start">
               <a href="https://iftiin.io" aria-label="IFTIIN Link">
                 <img
-                  src={Logo}
+                  src=/IFTIIN.png
                   alt="Iftiin Logo"
                  
                 />
