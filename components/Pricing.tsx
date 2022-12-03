@@ -162,7 +162,7 @@ export default function Pricing({ products }: Props) {
             <div className="flex items-center justify-start">
               <a href="https://nextjs.org" aria-label="Next.js Link">
                 <img
-                  src="/nextjs.svg"
+                  src="/if.svg"
                   alt="Next.js Logo"
                   className="h-12 text-white"
                 />
